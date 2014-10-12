@@ -160,7 +160,7 @@ function getLeaderboard(){
 	
 	var rank = 0;
 	$.ajax({
-		url: "http://www.phobiaquiz.esy.es/quiz_online_files/display-leaderboard.php",
+		url: "http://www.phobiaquiz.esy.es/quiz_online_files/display_leaderboard.php",
 		type: "GET",
 		dataType: "json",
 		success: function(data){
